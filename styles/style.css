@@ -37,11 +37,38 @@ li{
 h2{
     font-size: 40px;
 }
+h1{
+    font-size: 30px;
+}
 /* section one */
 .article_one{
+    display: inline-block;
     margin-top: 60px;
+    border:2px solid    #afafaf;
+    box-shadow: black;
+
 }
 .more{
-    font-size: 12px;
-    padding-left: 80%;
+    font-size: 19px;
+    padding-left:300px;
+}
+.description{
+    padding-top: 20px;
+}
+.article_photo{
+    width: 352px;
+    height: 300px;
+}
+.article_two{
+    display: inline-block;
+    padding-left: 40px;
+    border:2px solid    #afafaf;
+}
+.article_three{
+    display: inline-block;
+    padding-left: 40px;
+    border:2px solid    #afafaf;
+}
+h3{
+    padding-left: 50%;
 }
