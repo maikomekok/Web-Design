@@ -72,3 +72,26 @@ h1{
 h3{
     padding-left: 50%;
 }
+.footer_div{
+    background-color: rgb(32, 32, 32);
+}
+.foooter_logo , .footer_images,.footer_contacts,.footer_adress{
+    display: inline-block;
+}
+.footer_div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-top: 70px;
+}
+.section_one,.section_two,.section_three{
+    flex-wrap: wrap;
+}
+.adress,.contact{
+    font-size: 19px;
+    color: whitesmoke;
+}
+.number,.misamarti{
+    font-size: 13px;
+    color: white;
+}
