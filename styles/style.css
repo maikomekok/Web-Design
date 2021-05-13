@@ -83,6 +83,7 @@ h3{
     justify-content: space-between;
     padding-top: 50px;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 .section_one,.section_two,.section_three{
     flex-wrap: wrap;
@@ -94,4 +95,45 @@ h3{
 .number,.misamarti{
     font-size: 13px;
     color: white;
+}
+/* media */
+@media (max-width:480px){
+    .footer_div{
+        justify-content: center;
+        flex-direction: column;
+    }
+    footer{
+        margin-left: 50px;
+    }
+    .footer_adress,.footer_images,.footer_contacts{
+        margin-left: 40px;
+    }
+    .footer_adress{
+        padding-top: 20px;
+    }
+    .footer_contacts{
+        padding-top: 5px;
+    }
+    .second_logo{
+        display: none;
+    }
+    .f_and_i{
+        padding-top: 20px;
+    }
+    .navbar_li{
+        display: none;
+    }
+    .main_cover{
+        width: 320px;
+        height: 253px;
+    }
+    h2{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .section_one,.section_two,.section_three{
+        width: 480px;
+        justify-content: center;
+    }
+    .
 }
